@@ -26,10 +26,19 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## TODO
+- [x] ENV
+- [o] API Cleanup
+- [o] Class Level Validation `IsEmailUnqiue`
+- [0] Password Encryption
+- [x] JWT Integration
+- [0] Hosting
+- [x] Database Injection
+
 ## Installation
 
 ```bash
-$ npm install
+> npm install
 ```
 
 ## Running the app
@@ -64,9 +73,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Neeraj Vishwakarma](https://kamilmysliwiec.com)
+- Website - [LinkedIn](https://linkedin.com/in/neeraj.vishwkarma)
+
 
 ## License
 

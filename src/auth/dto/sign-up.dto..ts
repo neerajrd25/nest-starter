@@ -1,5 +1,5 @@
 import { IsString, IsNotEmpty, MinLength, MaxLength, IsEmail, Validate } from 'class-validator';
-import { IsEmailUnique } from 'src/users/validators/unique-email.validator';
+// import { IsEmailUnique } from 'src/users/validators/unique-email.validator';
 export class SignUpDTO  {
 
   @IsString()
@@ -18,6 +18,6 @@ export class SignUpDTO  {
   @IsNotEmpty()
   @IsString()
   @IsEmail()
-  @Validate(IsEmailUnique)  // Custom validation for unique email
+  // @Validate(IsEmailUnique)  // Custom validation for unique email
   readonly email: string
 }
