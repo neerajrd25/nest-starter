@@ -26,7 +26,19 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+# Project setup
+
+- Checkout
+- npm install
+- npm run start
+- update .env with DATABASE_URL. for e.g `DATABASE_URL= mongo connection string`
+- update .env with DATABASE_URL. for e.g `DATABASE_NAME= mongodbname`
+- This project allows request only from `http://localhost:5173` so make sure your frontend runs on this port OR change in `main.ts`
+
+This should allow this frontend app to run on localhost:5173
+
 ## TODO
+
 - [x] ENV
 - [o] API Cleanup
 - [o] Class Level Validation `IsEmailUnqiue`
@@ -34,6 +46,7 @@
 - [x] JWT Integration
 - [0] Hosting
 - [x] Database Injection
+- [o] Testing Framework
 
 ## Installation
 
